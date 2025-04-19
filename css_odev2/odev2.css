@@ -1,0 +1,71 @@
+/* style.css */
+
+body {
+    text-align: center; /* Tüm içeriği ortalar */
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  .logo {
+    margin-top: 20px;
+  }
+  
+  .search-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .search-box input[type="text"] {
+    margin: 10px 0;
+    padding: 5px;
+  }
+  
+  .bottom-section {
+    display: flex; /* 3 sütunu yan yana dizmek için */
+    justify-content: center;
+    margin-top: 0;
+  }
+  
+  .left-box, .middle-box, .right-box {
+    padding: 20px;
+    height: 130px;
+  }
+  
+  .left-box {
+    background-color: #aef0e8;
+    width: 200px;
+  }
+  
+  .middle-box {
+    background-color: #aef0e8;
+    width: 200px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+  }
+  
+  .right-box {
+    background-color: #65b6a8;
+    width: 300px;
+  }
+  
+  .right-box input[type="text"] {
+    width: 150px;
+    padding: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .right-box button {
+    margin-left: 5px;
+    padding: 3px 8px;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
