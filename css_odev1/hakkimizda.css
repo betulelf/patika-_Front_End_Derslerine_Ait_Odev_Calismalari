@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,h2,h3{
+    color: red;
+}
+
+/* Header genel görünüm */
+header {
+    /*   display: flex; */
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 20px;
+}
+
+/* Menü (ul) */
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    /* Noktaları içeride göster */
+}
+
+/* Menü öğeleri */
+.menu li {
+    margin: 0 5px;
+    /* Sağ ve sol kenar boşluğu */
+    padding: 10px 20px;
+    /* Üst ve alt kenar boşluğu */
+    display: inline-block;
+    /*yatay dizilim için inline-block*/
+}
+
+/* Linkler */
+.menu a {
+    
+    color: black;
+
+}

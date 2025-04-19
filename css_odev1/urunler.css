@@ -1,0 +1,84 @@
+body {
+    margin: 0; /* sayfanın kenar boşluğunu sıfırlar */
+    padding: 0; /* sayfanın iç kenar boşluğunu sıfırlar */
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,h2,h3{
+    color: red;
+}
+
+/* Header genel görünüm */
+header {
+    /*   display: flex; */
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 20px;
+}
+
+/* Menü (ul) */
+.menu ul {
+    margin: 0; /* liste içindeki öğelerin kenar boşluğunu sıfırlar */
+    padding: 0; /* liste içindeki öğelerin iç kenar boşluğunu sıfırlar */
+    list-style-position: inside;
+    /* Noktaları içeride göster */
+}
+
+/* Menü öğeleri */
+.menu li {
+    margin: 0 5px;
+    /* Sağ ve sol kenar boşluğu */
+    padding: 10px 20px;
+    /* Üst ve alt kenar boşluğu */
+    display: inline-block;
+    /*yatay dizilim için inline-block*/
+}
+
+/* Linkler */
+.menu a {
+    
+    text-decoration: none; /* alt çizgiyi kaldırır */
+    padding: 10px 20px; /* üst ve alt kenar boşluğu */
+    background-color: #f0f0f0; /* arka plan rengi */
+    border-radius: 5px; /* köşeleri yuvarlar */
+    transition: background-color 0.3s; /* arka plan renginin geçiş süresi */
+    color: black; /* linklerin rengi */
+
+
+}
+
+
+.urunler {
+    max-width: 600px; /* maksimum genişlik ayarı */
+    margin: 0 auto; /* sayfanın ortasına yerleştirmek için */
+    padding: 20px; /* iç kenar boşluğu */
+    text-align: center; /* metni ortalar */
+
+  }
+  
+  .urunler-listesi {
+    list-style-position: inside;    /* liste içindeki öğelerin nokta konumunu ayarlar */
+    padding: 0; /* liste içindeki öğelerin kenar boşluğunu sıfırlar */
+  }
+  
+  .urunler-listesi li {
+    margin-bottom: 30px; /* her ürün arasında boşluk */
+    font-weight: bold; /* ürün adını kalın yapar */
+    font-size: 20px; /* ürün adının boyutunu ayarlar */
+  }
+  
+  .urunler-listesi img {
+    display: block; /* resimlerin altındaki boşluğu kaldırır */
+    max-width: 100%; /* resimlerin genişliğini sınırlamak için */
+    height: auto; /* resimlerin yüksekliğini otomatik ayarlar */
+    margin: 10px auto 0 auto; /* üstte boşluk + ortalama */
+    border-radius: 8px; /* resimlerin köşelerini yuvarlar */
+  }
+  
